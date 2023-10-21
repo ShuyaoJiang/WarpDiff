@@ -1,4 +1,4 @@
-# WarpDiff: Differential Testing of Wasm Runtime Performance Issues
+# WarpDiff: Differential Testing of Wasm Runtime Performance
 
 ## Usage
 
