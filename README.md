@@ -1,20 +1,20 @@
 # WarpDiff: Differential Testing of Wasm Runtime Performance Issues
 
+## Usage
 
-## Step 0: Environment and Data Preparation
+### Step 0: Environment and Data Preparation
 * **Runtime Installation:** Install Wasm runtimes on your local environment for testing, including [Wasmer](https://github.com/wasmerio/wasmer), [Wasmtime](https://github.com/bytecodealliance/wasmtime), [Wasm3](https://github.com/wasm3/wasm3), [WasmEdge](https://github.com/WasmEdge/WasmEdge), and [WAMR](https://github.com/bytecodealliance/wasm-micro-runtime).
 * **Compiler Installation:** Install [Emscripten](https://emscripten.org).
 * **Dataset:** Download [llvm-test-suite](https://github.com/llvm/llvm-test-suite).
 * **Programming Language:** Python 3.9.
 
 
-## Step 1: Test Case Compilation
+### Step 1: Test Case Compilation
 ```
 python3 compile_to_target.py O2
-```
-  
+```  
 
-## Step 2: Runtime Performance Profiling
+### Step 2: Runtime Performance Profiling
 To obtain the total running time: 
 ```
 python3 runtime_profiling_total.py O2
@@ -27,7 +27,7 @@ python3 runtime_profiling.py O2
 ```
 
 
-## Step 3: Differential Testing on Runtime Performance Data
+### Step 3: Differential Testing on Runtime Performance Data
 ```
 python3 analyze_performance.py
 ```
