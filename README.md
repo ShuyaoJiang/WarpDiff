@@ -34,6 +34,6 @@ python3 analyze_performance.py
 
 
 ## Publication
-[Revealing Performance Issues in Server-side WebAssembly Runtimes via Differential Testing](https://arxiv.org/abs/2309.12167).  
+[Revealing Performance Issues in Server-side WebAssembly Runtimes via Differential Testing](https://doi.org/10.1109/ASE56229.2023.00088).  
 Shuyao Jiang, Ruiying Zeng, Zihao Rao, Jiazhen Gu, Yangfan Zhou, and Michael R. Lyu.  
 In *Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)*, September, 2023. 
